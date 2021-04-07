@@ -7,7 +7,7 @@ export default function Home() {
 
     return (
         <div className="home-main-wrapper">
-            <img src={userImg}></img>
+            <img alt="" src={userImg}></img>
             <div className="main-text">
                 <h1>Who am I ?</h1>
                 <h2>Who are you ?</h2>
