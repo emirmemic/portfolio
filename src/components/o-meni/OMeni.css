@@ -99,6 +99,7 @@
         width: 100%;   
         align-items: center; 
         
+        
     }
     .work-experience, .education, .skills-expertise{
         flex-direction: column;

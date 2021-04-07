@@ -44,6 +44,7 @@
         margin: auto;
         padding: 20px 5% 0 5%;
         flex-direction: column;
+        box-sizing: border-box;
     }
     .mobitel {
         justify-content: flex-start;
