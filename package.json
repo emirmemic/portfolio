@@ -1,6 +1,6 @@
 {
-  "homepage": "http://emirmemic.github.io/cv",
-  "name": "emir-cv",
+  "homepage": "http://emirmemic.github.io/portfolio",
+  "name": "emir-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
