@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+.o-meni-wrapper{
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-family: Roboto;
+    background-color:rgba(2, 36, 65, 0.507);
+}
+.freund {
+    color: white;
+    text-shadow: 1px 1px rgba(2, 36, 65, 0.856);
+    font-size: 1.5em;
+    padding-bottom: 0px;
+    text-shadow: 2px 2px black;
+    
+}
+.sa-os{
+    color: white;
+    text-shadow: 1px 1px rgba(2, 36, 65, 0.856);
+    font-size: 1.5em;
+    text-shadow: 2px 2px black;
+}
+.kult{
+    color: white;
+    text-shadow: 1px 1px rgba(2, 36, 65, 0.856);
+    font-size: 1.5em;
+    text-shadow: 2px 2px black;
+}
+.ita{
+    color: white;
+    text-shadow: 1px 1px rgba(2, 36, 65, 0.856);
+    font-size: 1.5em;
+    text-shadow: 2px 2px black;
+}
+.gimnazija {
+    color: white;
+    text-shadow: 1px 1px rgba(2, 36, 65, 0.856);
+    font-size: 1.5em;
+    text-shadow: 2px 2px black;
+}
+.about {
+    color: #c79f63;
+    font-size: 2em;
+    text-shadow: black 3px 0px ;
+    font-family: Roboto;
+    margin: 0;
+    padding-left: 40px;
+    
+}
+
+.work-experience, .education, .skills-expertise{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    text-shadow: 2px 2px black;
+    
+}
+
+.work-experience>h2, .education>h2, .skills-expertise>h2 {
+    color: #c79f63;
+    text-shadow: black 3px 0px ;
+    font-family: Roboto;
+    
+}
+.work-experience>div, .education>div, .skills-expertise>div{
+
+    width: 70%;
+    
+    
+}
+.entry{
+    display: flex;
+    width: 100%;
+    text-align: left;
+}
+.entry>ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 1.1em;
+    
+}
+.entry>p{
+    width: 150px;
+    min-width: 150px;
+    color:white ;
+    text-shadow: 1px 1px black;
+    font-size: 1.3em;  
+}
+@media only screen and  (max-width:768px){
+    .about{
+        text-align: center;
+        padding-right: 50px;
+    }
+    .o-meni-wrapper{
+        flex-direction: column;
+        width: 100%;   
+        align-items: center; 
+        
+    }
+    .work-experience, .education, .skills-expertise{
+        flex-direction: column;
+        align-items: center;  
+        width: 100%;   
+        text-align: center; 
+        margin:auto;
+        
+    }
+    .work-experience>h2, .education>h2, .skills-expertise>h2 {
+        margin: 8px;
+        padding-right: 10px;
+        
+    }
+    .work-experience>div, .education>div, .skills-expertise>div{
+    
+        margin: auto;
+        padding-right: 40px;
+        
+        
+    }
+    .entry{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .entry>ul>{
+        flex-direction: column;
+        align-items: center;
+        padding-right: 40px;
+        
+    }
+    .entry>ul>li{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 7px;
+        width: 100%;
+    }
+    .entry>p{
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 40px;
+        
+    }
+}

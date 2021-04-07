@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+.home-main-wrapper{
+    width: 60%;
+    margin: 1% auto;
+    display: flex;
+    font-family: Roboto;
+    
+}
+
+.home-main-wrapper>img{
+    border-radius: 50%;
+    height:400px;
+    padding: 25px;
+    
+}
+
+.home-main-wrapper>div>h1{
+    font-size: 5em;
+    margin: 0 0 0 -15px;
+    color: #80d8da;
+    text-shadow: 2px 2px black;
+    
+}
+.home-main-wrapper>div>h2{
+    font-size: 3.5em;
+    margin: 0 0 8px 10px;
+    color: #c79f63;
+    text-shadow: 2px 2px black;
+    
+}
+.home-main-wrapper>div>p{
+    font-size: 1.200em;
+    margin: 16px 0 0 30px;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+    background-color: rgba(23, 5, 58, 0.466);
+    border-radius: 30px;
+    width: 86%;
+    
+}
+
+.nav-buttons-container{
+    display: flex;
+    margin-top: 35px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.nav-buttons{
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 120px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    transition: all .15s ease-in;
+    color: black;
+    text-decoration: none;
+    
+}
+.nav-buttons:hover{
+    background-color: white!important;
+
+}
+.nav-buttons:nth-child(1){
+    background-color:#80d8da;
+    box-shadow: black 1px 1px;
+}
+.nav-buttons:nth-child(2){
+    background-color:#c79f63;
+    box-shadow: black 1px 1px;
+}
+.nav-buttons:nth-child(3){
+    background-color: rgb(210, 230, 224);
+    box-shadow: black 1px 1px;
+}
+@media only screen and  (max-width:768px){
+    .home-main-wrapper{
+        flex-direction: column;
+        width: 100%;   
+        align-items: center; 
+        padding: 10% 0;
+    }
+    .home-main-wrapper>img{
+        border-radius: 100px;
+        height: unset;
+        width: 92%;
+        padding: 0;
+    }
+    .home-main-wrapper>div{
+        width: 80%;
+        margin: auto;
+    }
+    .home-main-wrapper>div>h1{
+        font-size: 3em;
+        margin: 15px 0 0 20px;
+    }
+    .home-main-wrapper>div>h2{
+        font-size: 2em;
+        margin: 0px 0 0 40px;
+    }
+    .home-main-wrapper>div>p{
+        font-size: 1.45em;
+        margin: 15px 0 0 20px;
+        width: auto;
+    }
+    .nav-buttons-container{
+        flex-direction: column;
+
+    }
+    .nav-buttons{
+        line-height: 80px;
+        width: 90%;
+        margin: 2% auto;
+        height: 80px;
+        border-radius: 100px;
+    }
+}
+

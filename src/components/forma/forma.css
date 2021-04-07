@@ -1,0 +1,78 @@
+.form-field {
+  display: flex;
+  flex-direction: column;
+  color:rgba(2, 36, 65, 0.856);
+
+}
+.form-field>input{
+  padding: 5px;
+  margin-top: 3px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px transparent;
+  transition: all 0.15s ;
+}
+.form-field>input:focus{
+  border: rgba(2, 36, 65, 0.856);
+}
+
+.forma {
+  display: grid ;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.textarea {
+  grid-column: auto / span 2;
+  margin-top: 3px;
+  border-radius: 5px;
+}
+
+.forma-wrapper{
+  padding: 25px;
+  background-color: #c79f63ec;
+  height: 360px;
+  border-radius: 50px;
+}
+.submit-buttom {
+  margin: auto;
+  grid-column: auto/span 2;
+  border-radius: 50px;
+  background-color: rgba(2, 36, 65, 0.856);
+  color: white;
+  width: 70px;
+}
+@media only screen and  (max-width:768px){
+  .forma{
+    display: flex;
+    flex-direction: column;
+  }
+  .forma-wrapper{
+    box-sizing: border-box;
+    background-color: #c79f63da;
+    height: unset;
+    width: 90%;
+    border-radius: 20px;
+    margin-bottom: 40px;
+  }
+  .form-field>input{
+    padding: 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+  }
+  .textarea>textarea {
+    margin-top: 8px;
+    border-radius: 5px;
+  }
+  .submit-buttom {
+    margin: auto;
+    border-radius: 20px;
+    color: white;
+    width: 60%;
+    padding: 8px 0;
+    font-size: 0.8em;
+    font-family: roboto;
+    border: none;
+
+  }
+}

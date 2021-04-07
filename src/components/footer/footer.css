@@ -1,0 +1,50 @@
+.footer-wrapper{
+    width: 100%;
+    margin: auto;
+    height: 120px;
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    font-family: "Lato";
+    font-size: 1.325em;
+    background: rgba(2, 36, 65, 0.856);
+    text-shadow: 1px 1px black;
+}
+
+
+.footer-wrapper p{
+    margin: 19px 0;
+}
+
+.footer-wrapper .linkedin img{
+    width: 35px;
+    
+}
+.quote{
+    padding-bottom: 45px;
+}
+@media only screen and  (max-width:768px){
+    .footer-wrapper{
+        flex-direction: column;
+        height: unset;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 7%;
+    }
+    .footer-wrapper>div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 5px 0;
+    }
+    .footer-wrapper p {
+        margin: 0;
+    }
+}
+
+
