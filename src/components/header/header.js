@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import "./header.css"
 import { NavLink } from "react-router-dom"
+import userImg from "../../assets/coding.png"
 
 
 export default function Header() {
@@ -17,7 +18,7 @@ export default function Header() {
 
             <div>
                 <div>
-                    {/* <img src={userImg}></img> */}
+                    <img src={userImg}></img>
                     <p>EMIR MEMIĆ</p>
                     <p className="position">Frontend Developer</p>
                 </div>
