@@ -4,7 +4,7 @@
     min-height: 80vh;
     margin: 1% auto;
     display: flex;
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -16,26 +16,24 @@
 }
 
 .home-main-wrapper>div>h1{
-    font-size: 5em;
+    font-size: 4.5em;
     margin: 0 0 0 -15px;
     color: #80d8da;
     text-shadow: 2px 2px black;
     
 }
 .home-main-wrapper>div>h2{
-    font-size: 3.5em;
+    font-size: 3em;
     margin: 0 0 8px 10px;
     color: #c79f63;
     text-shadow: 2px 2px black;
     
 }
 .home-main-wrapper>div>p{
-    font-size: 1.200em;
-    margin: 16px 0 0 30px;
+    font-size: 1.250em;
+    margin: 16px 0 0 20px;
     color: whitesmoke;
     text-shadow: 1px 1px black;
-    background-color: rgba(23, 5, 58, 0.466);
-    border-radius: 30px;
     width: 80%;
     padding: 10px 0 10px 20px;
     
