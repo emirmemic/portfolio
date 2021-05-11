@@ -11,6 +11,15 @@ export default function OMeni() {
                 <h2>Work<br></br> Experience</h2>
                 <div>
                     <div className="entry">
+                        <p>2021</p>
+                        <ul>
+                            <li className="neonada">Neonada</li>
+                            <li>https://neonada.org/#/</li>
+                            <li>Feedback Exchange(the application is not finished)</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+                    <div className="entry">
                         <p>2020-2021</p>
                         <ul>
                             <li className="freund">Internship - Freund Elektronic</li>
